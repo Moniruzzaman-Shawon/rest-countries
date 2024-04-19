@@ -1,0 +1,20 @@
+.text {
+    font-size: 5rem;
+}
+
+.countries {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.country {
+    border: 5px solid whitesmoke;
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.country img {
+    width: 200px;
+}
